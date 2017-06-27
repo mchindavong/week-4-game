@@ -17,7 +17,7 @@ $('#diamond').on ('click', function(){
   userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
-        if (userTotal == Random){
+        if (userTotal === Random){
           yay();
         }
         else if ( userTotal > Random){
@@ -28,7 +28,7 @@ $('#emerald').on ('click', function(){
   userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
-        if (userTotal == Random){
+        if (userTotal === Random){
           yay();
         }
         else if ( userTotal > Random){
@@ -39,7 +39,7 @@ $('#ruby').on ('click', function(){
   userTotal = userTotal + num3;
     console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal);
-        if (userTotal == Random){
+        if (userTotal === Random){
           yay();
         }
         else if ( userTotal > Random){
@@ -50,7 +50,7 @@ $('#amber').on ('click', function(){
   userTotal = userTotal + num4;
     console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
-        if (userTotal == Random){
+        if (userTotal === Random){
           yay();
         }
         else if ( userTotal > Random){
