@@ -1,16 +1,27 @@
-div{
-	background-color: white;
+body {
+	margin: auto;
+	width: 50%;
+	background-color: #9FA0C3;
+	text-align: center;
+}
+
+div {
+	background-color: #4F517D;
 	margin: 10px;
-	width: 25%
-}
-div{
-	border: solid 2px #7525aa;
+	/* width: 25%; */
+	border: solid 2px #ffffff;
 	padding: 10px;
+	display: block;
 }
+
+.instructions {
+	text-align: left;
+}
+
 h1, h3, span{
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
-	color: #00cfff;
+	color: #ffffff;
 	text-align: center;
 }
 h1{
@@ -21,25 +32,20 @@ h2 {
 	font-family: 'Orbitron', sans-serif;
 }
 
-div.header, div.gems{
-	background-color: #fff;
-}
-div.header, div.instructions{
-	width: 50%;
+
+.numberToMatch, .scores, .userTotal{
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	height: 60px;
+	text-align: left;
 }
 
-.numberToMatch, .scores{
-	float: left;
-	width: 15%;
-	height: 60px;
-}
-.userTotal{
-	width: 15%;
-	height: 60px;
-}
 .gems{
 	clear: both;
+	text-align: center;
 }
 .gemImage{
-	height: 93px;
+	height: 100px;
+	border-radius: 50%;
 }

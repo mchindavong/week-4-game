@@ -24,7 +24,7 @@ $('#diamond').on ('click', function(){
           loser();
         }   
 })  
-$('#emerald').on ('click', function(){
+$('#sapphire').on ('click', function(){
   userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
